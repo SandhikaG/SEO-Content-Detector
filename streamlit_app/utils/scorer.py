@@ -27,6 +27,7 @@ def load_assets():
     """Loads all necessary models and data, memoized for Streamlit."""
     try:
         # Load the trained model
+        nltk.download('punkt', quiet=True)
         model = joblib.load('models/quality_model.pkl')
         
         # Initialize embedding model (needed to embed the new URL)
