@@ -32,6 +32,7 @@ def load_assets():
         nltk.download('punkt', quiet=True)
         nltk.download('averaged_perceptron_tagger', quiet=True)
         nltk.download('vader_lexicon', quiet=True)
+        nltk.download('punkt_tab', quiet=True) 
         
         
         model = joblib.load('models/quality_model.pkl')
