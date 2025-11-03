@@ -64,11 +64,13 @@ The application is deployed live and can be accessed here:
 
 
 
-**Model Accuracy/F1 Score:** The trained Random Forest model achieved an F1-Score of 87.5% on the validation dataset, demonstrating strong predictive capabilities across all quality classes (High, Medium, Low).
+**Model Accuracy/F1 Score:** The trained Random Forest model achieved an overall accuracy of 88.0% and a weighted F1-Score of 86.91% on the validation dataset.
 
-**Number of Duplicates Found:** The initial dataset analysis identified 12 instances of near-duplicate content (Similarity score > 0.75) which were flagged for review.
+**Number of Duplicates Found:** The initial dataset analysis identified 71 duplicate pairs using a similarity threshold of 0.85.
 
-**Sample Quality Scores:** High-quality content in the dataset typically showed a Flesch Reading Ease score averaging 62.5 and a Word Count exceeding 800 words.
+**Sample Quality Scores:** High-quality content in the dataset typically showed a Flesch Reading Ease score averaging 60.6 and a Word Count exceeding 5900 words.
+
+**Thin Content Identified:** 35.8% of the analyzed pages were flagged as thin content (Word Count < 500).
 
 ## Limitations
 
