@@ -27,13 +27,13 @@ def load_assets():
     """Loads all necessary models and data, memoized for Streamlit."""
     try:
         # Load the trained model
-        model = joblib.load('E:/Seo_Content_detector/models/quality_model.pkl')
+        model = joblib.load('models/quality_model.pkl')
         
         # Initialize embedding model (needed to embed the new URL)
         embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
         
         # Load feature data for comparison
-        df_features = pd.read_csv('E:/Seo_Content_detector/data/features.csv')
+        df_features = pd.read_csv('data/features.csv')
         
         # Reconstruct the embedding matrix from the column for similarity search
         # Note: 'embedding' column must be converted back from stringified JSON list to array
