@@ -43,11 +43,11 @@ A browser window will automatically open, where you can paste any URL and start 
 
 ## Deployed Streamlit URL
 
-(REQUIRED for claiming Streamlit bonus points)
+
 
 The application is deployed live and can be accessed here:
 
-[Insert your deployed Streamlit URL here]
+[https://seo-content-detector-analysis.streamlit.app/](https://seo-content-detector-analysis.streamlit.app/)
 
  ## Key Decisions
 
